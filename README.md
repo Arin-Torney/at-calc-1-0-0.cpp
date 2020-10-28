@@ -2,4 +2,4 @@
 `Hello Everyone!!! This calculator is very powerful and is made using the most precise data type available. This is a console app yet you can do a lot of things.`  
 **_Don't forget to try this out!_**
 <hr>
-_Thank You!_
+<em>Thank You!</em>
