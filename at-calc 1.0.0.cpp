@@ -1,3 +1,5 @@
+//AT-Calculator 1.0.0
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -7,25 +9,25 @@ int main() {
 	ant:
 	long double x, y;
 	string z;
-	cout << "AT-Calc Version 1.0.0\nWrite first number.\n";
+	cout << "AT-Calculator Version 1.0.0\nWrite first number.\n";
 	cin >> x;
 	cout << "Write second number.\n";
 	cin >> y;
 	cout << "Write which operation of those numbers you want to be performed\n(note that for mathematical operations which do not follow commutative law take it first to second number)\nor type IDK.\n";
 	cin >> z;
 	if (z == "IDK") {
-		int r;
-		cout << "Addition\nSubtraction\nMultiplication\nDivision\nModulus\nHypotenuse\nPower\nRoot\nLogarithm\nEnter one to reenter.\n";
+		string r;
+		cout << "Addition\nSubtraction\nMultiplication\nDivision\nHypotenuse\nPower\nRoot\nLogarithm\nEnter one to reenter.\n";
 		cin >> r;
-		if (r == 1) {
+		if (r == "1") {
 			goto ant;
 		}
 		else {
 			cat:
-			int g;
+			string g;
 			cout << "Wrong Input!!!\nEnter 1 to reenter.\n";
 			cin >> g;
-			if (g == 1) {
+			if (g == "1") {
 				goto ant;
 			}
 			else {
@@ -62,10 +64,10 @@ int main() {
 	}
 	else {
 		dog:
-		int s;
+		string s;
 		cout << "Wrong Input!!!\nEnter 1 to reenter.\n";
 		cin >> s;
-		if (s == 1) {
+		if (s == "1") {
 			goto ant;
 		}
 		else {
