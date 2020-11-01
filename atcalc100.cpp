@@ -8,7 +8,7 @@ using namespace std;
 int main() {
 	ant:
 	long double x, y;
-	string z;
+	string z, w;
 	cout << "AT-Calculator Version 1.0.0\nWrite first number.\n";
 	cin >> x;
 	cout << "Write second number.\n";
@@ -75,5 +75,8 @@ int main() {
 			goto dog;
 		}
 	}
+	cout << "\nEnter any character.\n";
+	cin >> w;
+	cout << "OK, So let us exit";
 	return 0;
 }
