@@ -1,5 +1,3 @@
-//AT-Calculator 1.0.0
-
 #include <iostream>
 #include <string>
 #include <cmath>
