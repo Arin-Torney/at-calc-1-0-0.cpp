@@ -3,7 +3,7 @@
 ~**_Don't forget to try this out!_**~  
 <hr>
   
-~`AT-Calc 1.0.1 C++ Version is released.`~
+~AT-Calc 1.0.1 C++ Version is released.~
 <hr>
 <del><em>Thank You!</em></del>
 This version is outdated. See AT Calculator Super for new versions.
