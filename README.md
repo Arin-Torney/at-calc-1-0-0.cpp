@@ -5,5 +5,5 @@
   
 ~AT-Calc 1.0.1 C++ Version is released.~
 <hr>
-<del><em>Thank You!</em></del>
+<del><em>Thank You!</em></del>  
 This version is outdated. See AT Calculator Super for new versions.
